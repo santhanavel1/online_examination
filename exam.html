@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Examination System</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Online Examination System</h1>
+        <div id="quiz">
+            <p id="question">Question goes here</p>
+            <label>
+                <input type="radio" name="option" value="A"> Option A
+            </label>
+            <label>
+                <input type="radio" name="option" value="B"> Option B
+            </label>
+            <label>
+                <input type="radio" name="option" value="C"> Option C
+            </label>
+            <label>
+                <input type="radio" name="option" value="D"> Option D
+            </label>
+            <button id="next" onclick="nextQuestion()">Next</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
